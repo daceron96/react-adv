@@ -17,7 +17,7 @@ export default function Navigation() {
                   <NavLink
                     to={to}
                     className={({ isActive }) => (isActive ? "nav-active" : "")}
-                  >
+                    >
                     {name}
                   </NavLink>
                 </li>
